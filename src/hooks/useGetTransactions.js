@@ -13,7 +13,7 @@ import { useGetUserInfo } from "./useGetUserInfo";
 export const useGetTransactions = () => {
   const [transactions, setTransactions] = useState([]);
   const [transactionTotal, setTransactionTotal] = useState({
-    balane: 0.0,
+    balance: 0.0,
     expense: 0.0,
     income: 0.0,
   });
